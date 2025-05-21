@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar styles */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 60px;
+}
+
+.resume-button {
+    padding: 18px 35px;
+    border: 1px solid rgb(13, 19, 33);
+    background: transparent;
+    border-radius: 8px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    margin-right: 80px;
+}
+
+/* contract section styles */
+
+.contract {
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con-container {
+    height: 581px;
+    width: 998px;
+    margin: 26px 221px 45px 221px;
+}
+
+.img-1 {
+    height: 240px;
+    width: 240px;
+}
+
+.contract-title {
+    color: rgb(13, 19, 33);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contract-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.contract-btn {
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
