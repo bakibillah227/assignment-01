@@ -346,3 +346,84 @@
     text-decoration-line: underline;
     margin-top: 8px;
 }
+
+/* next target styles */
+
+.next-target {
+    width: 1140px;
+    height: 866px;
+    margin: 111px auto;
+}
+
+.nt-content {
+    text-align: center;
+}
+
+.nt-title-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.nt-description-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+
+.nt-features {
+    margin-top: 48px;
+}
+
+.nt-feature {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+
+.nt-feature-1 {
+    margin-left: 24px;
+}
+
+.nt-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.nt-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.nt-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    text-decoration-line: underline;
+}
